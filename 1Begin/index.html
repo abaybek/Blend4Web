@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="b4w.min.js"></script>
+<script>
+function hello() {
+    var m_version = b4w.require("version");
+    document.body.innerHTML = "Hello, Blend4Web " + m_version.version() + "!";
+}
+</script>
+</head>
+
+<body onload="hello()"></body>
+
+</html>
